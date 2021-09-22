@@ -6,15 +6,21 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://example.com">
-  <title>xxxx</title>
+  <title>post[JAVA基础类库] String类 ○ StringBuffer类 ○ StringBuilder类 | xxxx</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="xxxx">
-<meta property="og:url" content="http://example.com/index.html">
+  <meta name="description" content="引言字符串就是一连串的字符序列，Java提供了String、StringBuffer和StringBuilder三个类来封装对字符串，并提供了系列方法来操作字符串对象。  String类是不可变类的； StringBuffer对象则代表一个字符序列可变的字符串，当一个StringBuffer被创建以后，通过StringBuffer提供的append、insert、reverse、setCharAt">
+<meta property="og:type" content="article">
+<meta property="og:title" content="post[JAVA基础类库] String类 ○ StringBuffer类 ○ StringBuilder类">
+<meta property="og:url" content="http://example.com/2021/09/23/post-JAVA%E5%9F%BA%E7%A1%80%E7%B1%BB%E5%BA%93-String%E7%B1%BB-%E2%97%8B-StringBuffer%E7%B1%BB-%E2%97%8B-StringBuilder%E7%B1%BB/index.html">
 <meta property="og:site_name" content="xxxx">
+<meta property="og:description" content="引言字符串就是一连串的字符序列，Java提供了String、StringBuffer和StringBuilder三个类来封装对字符串，并提供了系列方法来操作字符串对象。  String类是不可变类的； StringBuffer对象则代表一个字符序列可变的字符串，当一个StringBuffer被创建以后，通过StringBuffer提供的append、insert、reverse、setCharAt">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/e0168d10937b4985b902c59db7808cc3.png?x-oss-process=image/watermark,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBAWVhYWFlY,size_20,color_FFFFFF,t_70,g_se,x_16">
+<meta property="article:published_time" content="2021-09-22T23:25:24.000Z">
+<meta property="article:modified_time" content="2021-09-22T23:26:05.879Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://img-blog.csdnimg.cn/e0168d10937b4985b902c59db7808cc3.png?x-oss-process=image/watermark,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBAWVhYWFlY,size_20,color_FFFFFF,t_70,g_se,x_16">
   
     <link rel="alternative" href="/atom.xml" title="xxxx" type="application/atom+xml">
   
@@ -150,16 +156,14 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-    <article id="post-post-JAVA基础类库-String类-○-StringBuffer类-○-StringBuilder类" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+            <article id="post-post-JAVA基础类库-String类-○-StringBuffer类-○-StringBuilder类" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2021/09/23/post-JAVA%E5%9F%BA%E7%A1%80%E7%B1%BB%E5%BA%93-String%E7%B1%BB-%E2%97%8B-StringBuffer%E7%B1%BB-%E2%97%8B-StringBuilder%E7%B1%BB/">post[JAVA基础类库] String类 ○ StringBuffer类 ○ StringBuilder类</a>
+    <h1 class="article-title" itemprop="name">
+      post[JAVA基础类库] String类 ○ StringBuffer类 ○ StringBuilder类
     </h1>
   
 
@@ -269,6 +273,27 @@
       
 
       
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
+        </div>
+      
     </div>
     <div class="article-info article-info-index">
       
@@ -276,16 +301,75 @@
       
 
       
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2021/09/23/post-JAVA%E5%9F%BA%E7%A1%80%E7%B1%BB%E5%BA%93-String%E7%B1%BB-%E2%97%8B-StringBuffer%E7%B1%BB-%E2%97%8B-StringBuilder%E7%B1%BB/">展开全文 >></a>
-        </p>
-      
 
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
+        </div>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//pan.baidu.com/share/qrcode?url=http://example.com/2021/09/23/post-JAVA%E5%9F%BA%E7%A1%80%E7%B1%BB%E5%BA%93-String%E7%B1%BB-%E2%97%8B-StringBuffer%E7%B1%BB-%E2%97%8B-StringBuilder%E7%B1%BB/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
       
       <div class="clearfix"></div>
     </div>
   </div>
 </article>
+
+  
+<nav id="article-nav">
+  
+  
+    <a href="/2021/09/22/Collection%E9%9B%86%E5%90%88%E4%B8%AD%E7%9A%84%20contains%20%E5%92%8C%20remove%20%E4%BD%BF%E7%94%A8%E6%B7%B1%E5%85%A5%E2%80%94%E2%80%94%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E9%87%8D%E5%86%99equals()%20/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">Collection集合中的 contains 和 remove 使用深入——为什么要重写equals() ?</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
 
 <aside class="wrap-side-operation">
     <div class="mod-side-operation">
@@ -305,98 +389,14 @@
 
 
 
-
   
-    <article id="post-Collection集合中的 contains 和 remove 使用深入——为什么要重写equals() " class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2021/09/22/Collection%E9%9B%86%E5%90%88%E4%B8%AD%E7%9A%84%20contains%20%E5%92%8C%20remove%20%E4%BD%BF%E7%94%A8%E6%B7%B1%E5%85%A5%E2%80%94%E2%80%94%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E9%87%8D%E5%86%99equals()%20/">Collection集合中的 contains 和 remove 使用深入——为什么要重写equals() ?</a>
-    </h1>
   
 
-        
-        <a href="/2021/09/22/Collection%E9%9B%86%E5%90%88%E4%B8%AD%E7%9A%84%20contains%20%E5%92%8C%20remove%20%E4%BD%BF%E7%94%A8%E6%B7%B1%E5%85%A5%E2%80%94%E2%80%94%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E9%87%8D%E5%86%99equals()%20/" class="archive-article-date">
-  	<time datetime="2021-09-22T15:12:32.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-09-22</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>在Collection集合中：<br>contains方法是判断一个集合里面是否包含指定元素，如果有则返回true；<br>remove方法是从集合中删除指定元素的单个实例；<br>这两个方法看起很简单，用起来也很简单，同样也非常常用；但是，它们到底是怎么匹配到相应的元素呢？</p>
-<h2 id="源码剖析"><a href="#源码剖析" class="headerlink" title="源码剖析"></a>源码剖析</h2><p>以ArrayList为例，我们分析一下ArrayList中的contains和remove的源码；</p>
-<p>先看看contains：<br><img src="https://img-blog.csdnimg.cn/804ed4a7e1084b8382f7e702e5f17136.png" alt="在这里插入图片描述"><br>这里看到比较的对象是一个Object类，变量名为 o(就是是否包含 o )，并且调用了一个indexOf方法，接下来我们进一步看看indexOf源码：<br><img src="https://img-blog.csdnimg.cn/c8acb7dd88cb4d03a900dbab86719fdb.png" alt="在这里插入图片描述"><br>可以看到，indexOf又进一步调用了indexOfRange方法，我们还需要深入看看这个方法：<br><img src="https://img-blog.csdnimg.cn/37a42a1b66f14e4da9af845b285a5b94.png?x-oss-process=image/watermark,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBAWVhYWFlY,size_20,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述"><br>这里可以发现，<strong>indexOfRange中 o 调用了equals方法</strong>（蓝色部分）！<br>我们知道：<strong>equals方法是判断两个对象是否相等，但是默认情况下比较的是==对象的地址==，如果想要比较==对象的内容==就需要重写equals方法；</strong><br>那么这个contains调用了equals方法，所以，contains判断一个集合中是否包含某个元素其实就是通过<strong>对象地址</strong>比较的了；<br>这并不是我们想要的结果，所以==几乎所有放在集合中的类型，都需要重写equals方法！== </p>
-<p>为什么是几乎所有？<br>因为还是有特例的：==SUN公司已经把String类和包装类的equals方法重写了==，所以对于这两种我们不需要重写equals！</p>
-<p>同样看看remove方法：<br><img src="https://img-blog.csdnimg.cn/3b8a99ef05784a4c87f1aabe5bdb8834.png?x-oss-process=image/watermark,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBAWVhYWFlY,size_20,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述"><br>同样，remove方法也是通过equals方法比较元素然后移除的；</p>
-<p><strong>所以这里可以得出一个结论：</strong><br>==Collection集合中的remove方法和contains方法底层都会调用equals，所以只要放在集合中的类型，<strong>都要重写equals方法</strong>；==<br>因为对对象的地址的比较没有什么意义，我们实际上需要的是对象内容间的比较；</p>
-<h2 id="实例测试"><a href="#实例测试" class="headerlink" title="实例测试"></a>实例测试</h2><p>知道了结论，就来写几个代码测试一下：</p>
-<h3 id="String类和包装类的特殊情况"><a href="#String类和包装类的特殊情况" class="headerlink" title="String类和包装类的特殊情况"></a>String类和包装类的特殊情况</h3><p>对于 String类型和包装类，SUN公司重写了equals方法，所以我们先测试一下这两种情况：</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> java.util.ArrayList;</span><br><span class="line"><span class="keyword">import</span> java.util.Collection;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 结论：Collection接口中的remove方法和contains方法底层都会调用equals，</span></span><br><span class="line"><span class="comment">// 所以存放在一个集合中的类型，要重写它的equals方法</span></span><br><span class="line"><span class="comment">// （但是String和包装类的equals方法已经重写过了，不用重写）</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">CollectionTest02</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        <span class="comment">// 这里以ArrayList为例</span></span><br><span class="line">        Collection array1 = <span class="keyword">new</span> ArrayList();</span><br><span class="line"></span><br><span class="line">        <span class="comment">// String类：</span></span><br><span class="line">        String s1 = <span class="string">&quot;Hello&quot;</span>;</span><br><span class="line">        <span class="comment">// 将s1放入array1</span></span><br><span class="line">        array1.add(s1);</span><br><span class="line">        <span class="comment">// 定义一个s2也为 &quot;Hello&quot;，那么调用contains是否会包含s2？</span></span><br><span class="line">        String s2 = <span class="string">&quot;Hello&quot;</span>;</span><br><span class="line">        System.out.println(<span class="string">&quot;array1是否包含s2？&quot;</span> + array1.contains(s2)); <span class="comment">// true</span></span><br><span class="line">        <span class="comment">// 因为array1中放入的是s1，如果移除s2，s1会不会被移除呢？</span></span><br><span class="line">        array1.remove(s2);</span><br><span class="line">        System.out.println(<span class="string">&quot;移除s2后s1是否还在array1中？&quot;</span> + array1.contains(s1)); <span class="comment">// false</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">        <span class="comment">// 包装类也同样：</span></span><br><span class="line">        Integer num1 = <span class="number">1000</span>;</span><br><span class="line">        <span class="comment">// 将num1放入array1</span></span><br><span class="line">        array1.add(num1);</span><br><span class="line">        <span class="comment">// 定义一个num2也为1000</span></span><br><span class="line">        Integer num2 = <span class="number">1000</span>;</span><br><span class="line">        System.out.println(<span class="string">&quot;array1是否包含num2？&quot;</span> + array1.contains(num2)); <span class="comment">// true</span></span><br><span class="line">        <span class="comment">// 移除num2观察num1是否会被移除</span></span><br><span class="line">        array1.remove(num2);</span><br><span class="line">        System.out.println(<span class="string">&quot;移除num2后num1是否还在array1中？&quot;</span> + array1.contains(num1)); <span class="comment">// false</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>输出结果：</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">array1是否包含s2？<span class="keyword">true</span></span><br><span class="line">移除s2后s1是否还在array1中？<span class="keyword">false</span></span><br><span class="line">array1是否包含num2？<span class="keyword">true</span></span><br><span class="line">移除num2后num1是否还在array1中？<span class="keyword">false</span></span><br></pre></td></tr></table></figure>
-
-<h3 id="自定义类型"><a href="#自定义类型" class="headerlink" title="自定义类型"></a>自定义类型</h3><p>这是equals重写的情况，接下来我自定义一个类型，看看没有重写会发生什么；</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> java.util.ArrayList;</span><br><span class="line"><span class="keyword">import</span> java.util.Collection;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">CollectionTest03</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        <span class="comment">// 还是以ArrayList为例</span></span><br><span class="line">        Collection array = <span class="keyword">new</span> ArrayList();</span><br><span class="line"></span><br><span class="line">        <span class="comment">// 创建一个User对象u1</span></span><br><span class="line">        User u1 = <span class="keyword">new</span> User(<span class="string">&quot;张三&quot;</span>);</span><br><span class="line">        <span class="comment">// 将u1对象放入array中</span></span><br><span class="line">        array.add(u1);</span><br><span class="line">        <span class="comment">// 再创建一个User对象,使其内容和u1相同都为&quot;张三&quot;，那么调用contains是否会包含该对象呢？</span></span><br><span class="line">        System.out.println(<span class="string">&quot;array中是否包含新创建的对象？&quot;</span> + array.contains(<span class="keyword">new</span> User(<span class="string">&quot;张三&quot;</span>))); <span class="comment">// false</span></span><br><span class="line">        <span class="comment">// 移除一个内容为&quot;张三&quot;的新的对象，u1是否会被移除？</span></span><br><span class="line">        array.remove(<span class="keyword">new</span> User(<span class="string">&quot;张三&quot;</span>));</span><br><span class="line">        System.out.println(<span class="string">&quot;移除后u1是否存在？&quot;</span> + array.contains(u1)); <span class="comment">// true</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 自己定义一个User类</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">User</span> </span>&#123;</span><br><span class="line">    <span class="comment">// 成员变量：姓名</span></span><br><span class="line">    <span class="keyword">private</span> String name;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 默认构造</span></span><br><span class="line">    User() &#123;&#125;</span><br><span class="line">    <span class="comment">// 有参构造：初始化姓名</span></span><br><span class="line">    User(String name) &#123;</span><br><span class="line">        <span class="keyword">this</span>.name = name;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>输出结果：</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">array中是否包含新创建的对象？<span class="keyword">false</span></span><br><span class="line">移除后u1是否存在？<span class="keyword">true</span></span><br></pre></td></tr></table></figure>
-
-<p>可以看到，我自定义的User方法里<strong>没有重写equals方法</strong>，所以当调用contains和remove时，虽然传入的对象内容和u1的对象内容相同都为“张三”，但是实际上比较的却是对象的地址；</p>
-<p>接下来我<strong>重写User的equals方法</strong>，看看结果如何；</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> java.util.ArrayList;</span><br><span class="line"><span class="keyword">import</span> java.util.Collection;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">CollectionTest03</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        <span class="comment">// 还是以ArrayList为例</span></span><br><span class="line">        Collection array = <span class="keyword">new</span> ArrayList();</span><br><span class="line"></span><br><span class="line">        <span class="comment">// 创建一个User对象u1</span></span><br><span class="line">        User u1 = <span class="keyword">new</span> User(<span class="string">&quot;张三&quot;</span>);</span><br><span class="line">        <span class="comment">// 将u1对象放入array中</span></span><br><span class="line">        array.add(u1);</span><br><span class="line">        <span class="comment">// 再创建一个User对象,使其内容和u1相同都为&quot;张三&quot;，那么调用contains是否会包含该对象呢？</span></span><br><span class="line">        System.out.println(<span class="string">&quot;array中是否包含新创建的对象？&quot;</span> + array.contains(<span class="keyword">new</span> User(<span class="string">&quot;张三&quot;</span>))); <span class="comment">// true</span></span><br><span class="line">        <span class="comment">// 移除一个内容为&quot;张三&quot;的新的对象，u1是否会被移除？</span></span><br><span class="line">        array.remove(<span class="keyword">new</span> User(<span class="string">&quot;张三&quot;</span>));</span><br><span class="line">        System.out.println(<span class="string">&quot;移除后u1是否存在？&quot;</span> + array.contains(u1)); <span class="comment">// false</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 自己定义一个User类</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">User</span> </span>&#123;</span><br><span class="line">    <span class="comment">// 成员变量：姓名</span></span><br><span class="line">    <span class="keyword">private</span> String name;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 默认构造</span></span><br><span class="line">    User() &#123;&#125;</span><br><span class="line">    <span class="comment">// 有参构造：初始化姓名</span></span><br><span class="line">    User(String name) &#123;</span><br><span class="line">        <span class="keyword">this</span>.name = name;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 重写equals方法 ，通过name进行比较</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">boolean</span> <span class="title">equals</span><span class="params">(Object o)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">if</span> (<span class="keyword">this</span> == o) <span class="keyword">return</span> <span class="keyword">true</span>;</span><br><span class="line">        <span class="keyword">if</span> (!(o <span class="keyword">instanceof</span> User)) <span class="keyword">return</span> <span class="keyword">false</span>;</span><br><span class="line">        User user = (User) o;</span><br><span class="line">        <span class="keyword">return</span> name.equals(user.name);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>输出结果：</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">array中是否包含新创建的对象？<span class="keyword">true</span></span><br><span class="line">移除后u1是否存在？<span class="keyword">false</span></span><br></pre></td></tr></table></figure>
-
-<p>我只是重写了一个equals方法，其他地方都没变，结果完全不同；</p>
-<p>所以这就验证了之前的结论：<strong>contains 和 remove 底层实现都调用了equals方法</strong>；</p>
-<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>其实这篇文章就是分析一下contains 和 remove 底层实现，主要想说的还是那一句话：<br>==Collection集合中的remove方法和contains方法底层都会调用equals，所以只要放在集合中的类型，<strong>都要重写equals方法</strong>；（String和包装类除外）==</p>
-<p>希望各位在Java学习中养成好习惯，要时刻惦记着equals的重写，不然如果做了一个项目你连错在哪里都不好找到；</p>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2021/09/22/Collection%E9%9B%86%E5%90%88%E4%B8%AD%E7%9A%84%20contains%20%E5%92%8C%20remove%20%E4%BD%BF%E7%94%A8%E6%B7%B1%E5%85%A5%E2%80%94%E2%80%94%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E9%87%8D%E5%86%99equals()%20/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
+  
 
   
+
   
 
 
@@ -419,8 +419,8 @@
     <script>
 	var yiliaConfig = {
 		mathjax: false,
-		isHome: true,
-		isPost: false,
+		isHome: false,
+		isPost: true,
 		isArchive: false,
 		isTag: false,
 		isCategory: false,
